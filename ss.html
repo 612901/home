@@ -1,12 +1,11 @@
-<head>
-<script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
-</head>
-<body>
-    <script>
-    var appID="WinQSxop8M1Og0VLU7GARdrp-MdYXbMMI";     
-    var appKEY="Mdi3eZWzUPlGrBXKYbB4zEH4";
-    </script>
-    <div id="lazy"></div>
-    <div id="artitalk"></div>
-    <script type="text/javascript" src="https://unpkg.com/artitalk@1.2.0"></script>
-</body>
+<!-- 引用 artitalk -->
+<script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+<!-- 存放说说的容器 -->
+<div id="artitalk_main"></div>
+<script>
+new Artitalk({
+    appId: 'WinQSxop8M1Og0VLU7GARdrp-MdYXbMMI', // Your LeanCloud appId
+    appKey: 'Mdi3eZWzUPlGrBXKYbB4zEH4', // Your LeanCloud appKey
+    severURL: 'http://ss.wyblog1.tk',
+})
+</script>
